@@ -1,0 +1,87 @@
+.search-container {
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .search-container .fa-arrow-left-long {
+    position: absolute;
+    cursor: pointer;
+    color: #333;
+    font-size: 20px;
+    top: 14px;
+    left: 120px;
+
+  }
+  
+  .search-container input {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .search-container input:focus {
+    width: 500px;
+    transition: 0.3s ease;
+    /* border: #ddd; */
+    outline: #333;
+  }
+
+  .search-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+  }
+
+  
+  .cards-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: start;
+  }
+  
+  .card {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 258px;
+    height: 400px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .card img {
+    object-fit: cover;
+    border-radius: 5px;  
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .card p span {
+    text-decoration: line-through;
+    color: #A5A5A5;
+    font-size: 14px;
+  }
+  
