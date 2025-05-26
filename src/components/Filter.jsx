@@ -130,7 +130,7 @@ function Filter() {
             </li>
           </ul>
         </div>
-        <img src="../../public/banner.svg" alt="banner" />
+        <img src="/banner.svg" alt="banner" />
       </div>
       <div className="filter-cards-container">
         <div className="filter-links">
@@ -159,12 +159,12 @@ function Filter() {
         <div className="cards-container">
           {cardsToShow.map((item) => (
             <div className="card" key={item.id}>
-              <img src={`../../public/greenshop${item.id}.svg`} alt={item.name} />
+              <img src={`/greenshop${item.id}.svg`} alt={item.name} />
               <div className="icon_wrappers">
                 <i className={`fa-solid fa-cart-shopping ${shopedCards.some(card => card.id === item.id) ? 'shoped-card': ''}`} onClick={() => propsToShop(item.id)}></i>
                 <i className={`${acitveIcon.includes(item.id) ? "heart_active" : ""} fa-regular fa-heart`} onClick={() => activeHeart(item.id)}></i>
                 <NavLink to="search">
-                  <img src="../../public/search.svg" alt="shop" />
+                  <img src="/search.svg" alt="shop" />
                 </NavLink>  
               </div>
               <h3 className="card-title">{item.name}</h3>
