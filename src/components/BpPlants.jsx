@@ -1,5 +1,5 @@
-import SmallFlower from "../../public/smallFlower.png";
-import BigFlower from "../../public/bigFlower.png";
+import SmallFlower from "/smallFlower.png";
+import BigFlower from "/bigFlower.png";
 import '../index.css'
 function BpPlants() {
   return (

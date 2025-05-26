@@ -24,7 +24,7 @@ function Search() {
       <div className="cards-container">
         {filteredData.map((item) => (
           <div className="card" key={item.id}>
-            <img src={`../../public/greenshop${item.id}.svg`} alt={item.name} />
+            <img src={`/greenshop${item.id}.svg`} alt={item.name} />
             <h3>{item.name}</h3>
             <p>
               {item.price} {item.oldprice && <span>{item.oldprice}</span>}

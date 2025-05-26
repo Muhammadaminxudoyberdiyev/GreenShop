@@ -1,10 +1,10 @@
 import React from 'react'
 import { useState } from 'react';
 import { NavLink } from "react-router-dom";
-import Logo from "../../public/Group.png";
-import Search from "../../public/search.png";
-import Basket from "../../public/basket.svg";
-import Logout from "../../public/Logout.png";
+import Logo from "/Group.png";
+import Search from "/search.png";
+import Basket from "/basket.svg";
+import Logout from "/Logout.png";
 
 function PageNotFound() {
     const [activePageLinks, setActivePageLinks] = useState("")

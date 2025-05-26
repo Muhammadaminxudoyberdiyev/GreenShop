@@ -2,7 +2,7 @@ const Mockdata = [
   {
       id: "1",
       name: "Barberton Daisy",
-      img: ".././public/greenshop1",
+      img: "/greenshop1",
       price: "$119.00",
       oldprice: null,
       size: "small",
@@ -11,7 +11,7 @@ const Mockdata = [
   {
       id: "2",
       name: "Angel Wing Begonia",
-      img: ".././public/greenshop2",
+      img: "/greenshop2",
       price: "$169.00",
       oldprice: null,
       size: "medium",
@@ -20,7 +20,7 @@ const Mockdata = [
   {
       id: "3",
       name: "African Violet",
-      img: ".././public/greenshop3",
+      img: "/greenshop3",
       price: "$199.00",
       oldprice: "$229.00",
       size: "medium",
@@ -29,7 +29,7 @@ const Mockdata = [
   {
       id: "4",
       name: "Beach Spider Lily",
-      img: ".././public/greenshop4",
+      img: "/greenshop4",
       price: "$129.00",
       oldprice: null,
       size: "large",
@@ -38,7 +38,7 @@ const Mockdata = [
   {
       id: "5",
       name: "Blushing Bromeliad",
-      img: ".././public/greenshop5",
+      img: "/greenshop5",
       price: "$139.00",
       oldprice: null,
       size: "medium",
@@ -47,7 +47,7 @@ const Mockdata = [
   {
       id: "6",
       name: "Aluminum Plant",
-      img: ".././public/greenshop6",
+      img: "/greenshop6",
       price: "$179.00",
       oldprice: null,
       size: "medium",
@@ -56,7 +56,7 @@ const Mockdata = [
   {
       id: "7",
       name: "Bird's Nest Fern",
-      img: ".././public/greenshop7",
+      img: "/greenshop7",
       price: "$99.00",
       oldprice: null,
       size: "small",
@@ -65,7 +65,7 @@ const Mockdata = [
   {
       id: "8",
       name: "Broadleaf Lady Palm",
-      img: "./public/greenshop8",
+      img: "/greenshop8",
       price: "$59.00",
       oldprice: null,
       size: "large",
@@ -74,7 +74,7 @@ const Mockdata = [
   {
       id: "9",
       name: "Chinese Evergreen",
-      img: ".././public/greenshop9",
+      img: "/greenshop9",
       price: "$39.00",
       oldprice: null,
       size: "small",

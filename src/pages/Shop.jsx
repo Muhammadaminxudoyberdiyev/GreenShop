@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../../public/Group.png";
-import Search from "../../public/search.png";
-import Basket from "../../public/basket.svg";
-import Logout from "../../public/Logout.png";
+import Logo from "/Group.png";
+import Search from "/search.png";
+import Basket from "/basket.svg";
+import Logout from "/Logout.png";
 
 function Shop() {
   const saved = localStorage.getItem("shopedCards");
@@ -100,7 +100,7 @@ function Shop() {
               (data.map((item, index) => (
               <div className="shoped-cards" key={item.id}>
                 <img
-                  src={`../../public/greenshop${item.id}.svg`}
+                  src={`/greenshop${item.id}.svg`}
                   alt={item.name}
                 />
                 <div className="shoped-card-wrapper">

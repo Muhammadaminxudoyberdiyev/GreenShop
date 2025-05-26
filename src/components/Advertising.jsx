@@ -5,7 +5,7 @@ function Advertising() {
     <>
         <div className="advertising-wrapper">
             <div className="advertising">
-                <img src="../../public/advertising1.svg" alt="flower" />
+                <img src="/advertising1.svg" alt="flower" />
                 <div className="advertising-text-container">
                     <h3>SUMMER CACTUS & SUCCULENTS</h3>
                     <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>
@@ -13,7 +13,7 @@ function Advertising() {
                 </div>
             </div>
             <div className="advertising">
-                <img src="../../public/advertising2.svg" alt="flower" />
+                <img src="/advertising2.svg" alt="flower" />
                 <div className="advertising-text-container">
                     <h3>Styling Trends & much more</h3>
                     <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>

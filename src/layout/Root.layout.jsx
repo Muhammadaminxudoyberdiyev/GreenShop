@@ -1,7 +1,7 @@
-import Logo from "../../public/Group.png";
-import Search from "../../public/search.png";
-import Basket from "../../public/basket.svg";
-import Logout from "../../public/Logout.png";
+import Logo from "/Group.png";
+import Search from "/search.png";
+import Basket from "/basket.svg";
+import Logout from "/Logout.png";
 import Filter from "../components/Filter";
 import "../index.css";
 import { useState } from "react";
@@ -56,7 +56,7 @@ function App() {
             <div className="newsletters-card">
               <div className="nl-texts">
                 <span className="nl-green"></span>
-                <img src="../../public/footer2.svg"/>
+                <img src="/footer2.svg"/>
                 <h4>Garden Care</h4>
                 <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
               </div>
@@ -65,7 +65,7 @@ function App() {
             <div className="newsletters-card">
               <div className="nl-texts">
                 <span className="nl-green"></span>
-                <img src="../../public/footer2.svg"/>
+                <img src="/footer2.svg"/>
                 <h4>Garden Care</h4>
                 <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
               </div>
@@ -74,7 +74,7 @@ function App() {
             <div className="newsletters-card">
               <div className="nl-texts">
                 <span className="nl-green"></span>
-                <img src="../../public/footer3.svg"/>
+                <img src="/footer3.svg"/>
                 <h4>Garden Care</h4>
                 <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
               </div>
@@ -92,15 +92,15 @@ function App() {
           <div className="green-container">
             <img src={Logo} alt="logo" className="logo" />
             <div className="g-part">
-              <img src="../../public/Location.png" alt="location" />
+              <img src="/Location.png" alt="location" />
               <p>70 West Buckingham Ave. Farmingdale, NY 11735</p>
             </div>
             <div className="g-part">
-              <img src="../../public/Message.png" alt="location" />
+              <img src="/Message.png" alt="location" />
               <p>contact@greenshop.com</p>
             </div>
             <div className="g-part">
-              <img src="../../public/Calling.png" alt="location" />
+              <img src="/Calling.png" alt="location" />
               <p>+88 01911 717 490</p>
             </div>
           </div>
@@ -138,14 +138,14 @@ function App() {
             <div className="footer-links-part">
               <h3>Social Media</h3>
               <div className="footer-icons">
-                <div className="f-icons"><img src="../../public/Facebook.svg" alt="icon" /></div>
-                <div className="f-icons"><img src="../../public/Instagram.svg" alt="icon" /></div>
-                <div className="f-icons"><img src="../../public/Twitter.svg" alt="icon" /></div>
-                <div className="f-icons"><img src="../../public/Linkedin.svg" alt="icon" /></div>
-                <div className="f-icons"><img src="../../public/Union.svg" alt="icon" /></div>
+                <div className="f-icons"><img src="/Facebook.svg" alt="icon" /></div>
+                <div className="f-icons"><img src="/Instagram.svg" alt="icon" /></div>
+                <div className="f-icons"><img src="/Twitter.svg" alt="icon" /></div>
+                <div className="f-icons"><img src="/Linkedin.svg" alt="icon" /></div>
+                <div className="f-icons"><img src="/Union.svg" alt="icon" /></div>
               </div> 
                 <h3>We accept</h3>
-                <img src="../../public/cards.svg" alt="" />
+                <img src="/cards.svg" alt="" />
             </div>
           </div>
           <hr />
